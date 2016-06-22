@@ -10,7 +10,7 @@ $(document).ready(function() {
 	const productscontent = $('.products-content');
 	const additionalcontent = $('.additional-content');
 	const servicecontent = $('.service-content');
-	$('.main').css('height',$(window).height());
+	$('.main').css('min-height',$(window).height());
     li.on('click',function(){
     	$(this).addClass('active');
     	$(this).find('a').addClass('active');
